@@ -8,24 +8,25 @@
 </head>
 
 <body>
-  <p>Message: <span id="message"></span></p>
 
+  <p>Name: <span id="Name"></span></p>
 
-  <button type="button" onclick="btn1()">Not learnerd</button>
+  <button type="button" onclick="giveName()">Give Name</button>
 
-  <button type="button" onclick="btn2()">learnerd</button>
-  <script>
-
-    function btn1() {
-      const A = document.getElementById(message);
-      element.innertext = "You not  lerned";
-    }
-
-    function btn2() {
-      const B = document.getElementById(message);
-      element.innertext = "You lerned"
-    }
-  </script>
+  <button type="button" onclick="changeName()">Change  Name</button>
 </body>
 
+<script>
+  function giveName()
+  {
+    const A = document.getElementById("Name");
+    A.innerText="Aditya Walzade"
+  }
+
+  function changeName()
+  {
+    const B = document.getElementById("Name");
+    B.innerText="Datta Nedre"
+  }
+</script>
 </html>
